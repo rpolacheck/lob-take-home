@@ -1,0 +1,31 @@
+.side-nav-container {
+    border-right: solid 2px #EAF0F7;
+    background-color: #F8F9FA;
+    width: 215px;
+    height: 100vh;
+}
+
+.button-container {
+    display: flex;
+    flex-direction: column;
+    padding-top: 12px;
+}
+
+.mat-icon {
+    padding-left: 14px;
+}
+
+.mat-icon-button {
+    padding-bottom: 48px;
+}
+
+.mat-icon-button:hover .mat-button-focus-overlay {
+    opacity: 1 !important;
+}
+
+span {
+    padding: 16px;
+    font-weight: 300;
+    font-size: 14px;
+    font-family: 'Lato', sans-serif;
+}
